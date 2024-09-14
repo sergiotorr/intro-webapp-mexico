@@ -10,6 +10,6 @@ Prompt 3: Quiero que cada seccion de la bandera sea cuadrada, las palabras y el 
 
 Prompt 4: Quita la palabra "color" y deja los colores solos, la barra y las palabras deben de estar en la parte superior de los colores y los @ son 3 caracteres de alto y 5 de largo.
 
-Prompt 5: Todo muy bien, ahora solo mueve la bandera mas abajo, no muevas las palabras ni las barras, solo mueve la bandera.
+Prompt 5: Todo muy bien, ahora solo mueve la bandera mas abajo, no muevas las palabras ni las barras, solo mueve la bandera. 
 
 
