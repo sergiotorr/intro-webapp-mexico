@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Bandera de México</h1>
+
+    <div class="container">
+        <div class="color-section">
+            <label for="verde">Esperanza</label>
+            <input type="range" id="verde" min="0" max="255" value="128">
+            <p id="verde-hex">#008000</p>
+        </div>
+
+        <div class="color-section">
+            <label for="blanco">Unidad</label>
+            <p id="blanco-hex">#FFFFFF</p>
+        </div>
+
+        <div class="color-section">
+            <label for="rojo">Sangre de nuestros héroes nacionales</label>
+            <input type="range" id="rojo" min="0" max="255" value="128">
+            <p id="rojo-hex">#800000</p>
+        </div>
+    </div>
+
+    <div class="bandera">
+        <div id="color-verde" class="color-box"></div>
+        <div id="color-blanco" class="color-box blanco">
+            <pre class="ascii">@ @ @ @ @<br>@ @ @ @ @<br>@ @ @ @ @</pre>
+        </div>
+        <div id="color-rojo" class="color-box"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
